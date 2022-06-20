@@ -29,6 +29,9 @@ module.exports = (router, type) => {
     //        if (!body.message || !body.reciverEmail) {
     //            return [false, 'Message and reciever email can not be empty';]
     //        }
+
+    // if everything is good, then do this
+    //        return [true, ''];
     //    }
     // You can use it like this
     // const [valid, message] = validateRequest(req.body);
